@@ -1,0 +1,36 @@
+﻿@model MinibusTakip.Models.Vehicle
+@{
+    ViewData["Title"] = Model.Id == 0 ? "Yeni Minibüs" : "Minibüs Düzenle";
+}
+
+<h4 class="fw-bold mb-3">@ViewData["Title"]</h4>
+
+<form asp-action="EkleGuncelle" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+
+    <div class="admin-card">
+        <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+        <div class="mb-3">
+            <label asp-for="Plaka" class="form-label text-muted small fw-bold">Plaka</label>
+            <input asp-for="Plaka" class="form-control" />
+            <span asp-validation-for="Plaka" class="text-danger small"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="SoforId" class="form-label text-muted small fw-bold">Şoför Ata</label>
+            <select asp-for="SoforId" class="form-select" asp-items="ViewBag.SoforList">
+                <option value="">-- Şoför yok --</option>
+            </select>
+        </div>
+
+        <div class="form-check form-switch mb-4">
+            <input asp-for="AktifMi" class="form-check-input" role="switch" />
+            <label asp-for="AktifMi" class="form-check-label">Aktif</label>
+        </div>
+
+        <button class="btn btn-primary w-100 py-2" type="submit">Kaydet</button>
+        <a asp-action="Index" class="btn btn-light w-100 py-2 mt-2">İptal</a>
+    </div>
+</form>

@@ -1,0 +1,27 @@
+﻿@model List<MinibusTakip.Models.Stop>
+@{
+    ViewData["Title"] = "Duraklar";
+}
+<div class="d-flex justify-content-between mb-3">
+    <h2>Duraklar</h2>
+    <a class="btn btn-primary" asp-action="EkleGuncelle">+ Yeni Durak</a>
+</div>
+<table class="table table-striped bg-white">
+    <thead><tr><th>Sıra</th><th>Durak Adı</th><th style="width:220px"></th></tr></thead>
+    <tbody>
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.Sira</td>
+            <td>@s.Ad</td>
+            <td>
+                <a class="btn btn-sm btn-warning" asp-action="EkleGuncelle" asp-route-id="@s.Id">Düzenle</a>
+                <form class="d-inline" asp-action="Sil" asp-route-id="@s.Id" method="post" onsubmit="return confirm('Silinsin mi?');">
+                    @Html.AntiForgeryToken()
+                    <button class="btn btn-sm btn-danger">Sil</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

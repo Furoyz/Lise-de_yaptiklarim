@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+/* =========================================
+   DEÐÝÞKENLER
+   Tek vurgu rengi (petrol mavisi), nötr gri zemin
+   ========================================= */
+:root {
+    --bg-body: #F4F6F8;
+    --bg-surface: #FFFFFF;
+    --bg-subtle: #EDF1F5;
+    --text-main: #1A2530;
+    --text-muted: #5A6775;
+    --border: #D9DFE6;
+    --border-strong: #B8C2CD;
+    --primary: #14537A;
+    --primary-hover: #0E4262;
+    --primary-soft: #E3EEF5;
+    --on-primary: #FFFFFF;
+    --success: #1E7A45;
+    --success-soft: #E4F3EA;
+    --warning: #9A5B00;
+    --warning-soft: #FFF1D6;
+    --danger: #B3261E;
+    --danger-soft: #FBE7E5;
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --header-height: 60px;
+    --bottom-nav-height: 68px;
+    --shadow-card: 0 1px 2px rgba(20, 35, 50, 0.06);
+}
+
+[data-theme="dark"] {
+    --bg-body: #0F1419;
+    --bg-surface: #172029;
+    --bg-subtle: #1E2A35;
+    --text-main: #E8EDF2;
+    --text-muted: #9AA8B6;
+    --border: #2A3744;
+    --border-strong: #3B4B5B;
+    --primary: #5FA8D3;
+    --primary-hover: #7DBBE0;
+    --primary-soft: #1B3448;
+    --on-primary: #0B1620;
+    --success: #5CCB8A;
+    --success-soft: #16301F;
+    --warning: #F0B550;
+    --warning-soft: #33280F;
+    --danger: #FF8A80;
+    --danger-soft: #3A1B19;
+    --shadow-card: none;
+}
+
+body {
+    font-family: 'Source Sans 3', 'Segoe UI', system-ui, sans-serif;
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    padding-top: var(--header-height);
+    padding-bottom: calc(var(--bottom-nav-height) + 16px);
+    font-size: 1.0625rem; /* 17px: yaþlý kullanýcýlar için rahat okunur */
+    line-height: 1.5;
+    font-variant-numeric: tabular-nums; /* saatler alt alta düzgün hizalanýr */
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.01em;
+    color: var(--text-main);
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1.45rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+a {
+    color: var(--primary);
+}
+
+:focus-visible {
+    outline: 3px solid var(--primary);
+    outline-offset: 2px;
+}
+
+/* =========================================
+   ÜST BAR
+   ========================================= */
+.app-header {
+    background: var(--primary);
+    color: var(--on-primary);
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+    .app-header .brand {
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: var(--on-primary);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        letter-spacing: 0;
+    }
+
+.theme-toggle {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    color: var(--on-primary);
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.15s;
+}
+
+    .theme-toggle:hover {
+        background: rgba(255, 255, 255, 0.14);
+    }
+
+.avatar-circle {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.16);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--on-primary);
+}
+
+[data-theme="dark"] .app-header {
+    background: var(--bg-surface);
+    color: var(--text-main);
+    border-bottom: 1px solid var(--border);
+}
+
+    [data-theme="dark"] .app-header .brand,
+    [data-theme="dark"] .theme-toggle,
+    [data-theme="dark"] .avatar-circle {
+        color: var(--text-main);
+    }
+
+[data-theme="dark"] .theme-toggle,
+[data-theme="dark"] .avatar-circle {
+    border-color: var(--border-strong);
+}
+
+/* =========================================
+   ANA ÝÇERÝK VE KARTLAR
+   ========================================= */
+.app-main {
+    padding: 20px 16px;
+    min-height: 100vh;
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.premium-card {
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 20px;
+    box-shadow: var(--shadow-card);
+    margin-bottom: 16px;
+}
+
+/* =========================================
+   FORM ELEMANLARI
+   ========================================= */
+.form-label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text-main);
+    margin-bottom: 6px;
+}
+
+.form-control,
+.form-select {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-strong);
+    color: var(--text-main);
+    border-radius: var(--radius-sm);
+    padding: 12px 14px;
+    min-height: 50px;
+    font-size: 1.0625rem;
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+    .form-control:focus,
+    .form-select:focus {
+        background-color: var(--bg-surface);
+        color: var(--text-main);
+        border-color: var(--primary);
+        box-shadow: 0 0 0 3px var(--primary-soft);
+        outline: none;
+    }
+
+    .form-control::placeholder {
+        color: var(--text-muted);
+        opacity: 1;
+    }
+
+/* =========================================
+   BUTONLAR
+   ========================================= */
+.btn {
+    border-radius: var(--radius-sm);
+    padding: 12px 22px;
+    min-height: 50px;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    color: var(--on-primary);
+}
+
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active {
+        background-color: var(--primary-hover);
+        border-color: var(--primary-hover);
+        color: var(--on-primary);
+    }
+
+.btn-outline-secondary {
+    background-color: transparent;
+    border: 1px solid var(--border-strong);
+    color: var(--text-main);
+}
+
+    .btn-outline-secondary:hover,
+    .btn-outline-secondary:focus {
+        background-color: var(--bg-subtle);
+        border-color: var(--border-strong);
+        color: var(--text-main);
+    }
+
+.btn-danger {
+    background-color: var(--danger);
+    border: 1px solid var(--danger);
+    color: #fff;
+}
+
+/* =========================================
+   ALT MENÜ
+   ========================================= */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: var(--bottom-nav-height);
+    background: var(--bg-surface);
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    z-index: 1000;
+}
+
+    .bottom-nav a {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: var(--text-muted);
+        font-size: 0.8rem;
+        font-weight: 600;
+        gap: 3px;
+        width: 100%;
+        height: 100%;
+    }
+
+        .bottom-nav a i {
+            font-size: 1.4rem;
+        }
+
+        .bottom-nav a.active {
+            color: var(--primary);
+        }
+
+            .bottom-nav a.active::before {
+                content: "";
+                position: absolute;
+                top: -1px;
+                left: 22%;
+                right: 22%;
+                height: 3px;
+                background: var(--primary);
+                border-radius: 0 0 3px 3px;
+            }
+
+/* =========================================
+   HARÝTA
+   ========================================= */
+#harita {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    height: 240px;
+    z-index: 1;
+}
+
+.bus-marker {
+    background-color: var(--primary);
+    border: 2px solid var(--bg-surface);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--on-primary);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+/* =========================================
+   DURUM ROZETLERÝ (isteðe baðlý)
+   ========================================= */
+.durum {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.durum-zamaninda {
+    color: var(--success);
+    background: var(--success-soft);
+}
+
+.durum-gecikme {
+    color: var(--warning);
+    background: var(--warning-soft);
+}
+
+.durum-iptal {
+    color: var(--danger);
+    background: var(--danger-soft);
+}

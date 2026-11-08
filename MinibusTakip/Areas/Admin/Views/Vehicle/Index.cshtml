@@ -1,0 +1,53 @@
+﻿@model List<MinibusTakip.Models.Vehicle>
+@{
+    ViewData["Title"] = "Minibüsler";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h4 class="fw-bold m-0">🚌 Minibüsler</h4>
+    <a class="btn btn-primary btn-sm rounded-pill px-3" asp-action="EkleGuncelle">+ Yeni</a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="admin-card text-center text-muted py-4">Kayıtlı minibüs yok.</div>
+}
+else
+{
+    <div class="admin-card p-0 overflow-hidden">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead>
+                    <tr><th>Plaka</th><th>Şoför</th><th>Aktif</th><th class="text-end">İşlem</th></tr>
+                </thead>
+                <tbody>
+                    @foreach (var v in Model)
+                    {
+                        <tr>
+                            <td class="fw-bold">@v.Plaka</td>
+                            <td>@(v.Sofor != null ? $"{v.Sofor.Ad} {v.Sofor.Soyad}" : "-")</td>
+                            <td>
+                                @if (v.AktifMi)
+                                {
+                                    <span class="badge bg-success">Evet</span>
+                                }
+                                else
+                                {
+
+                                    <span class="badge bg-danger">Hayır</span>
+                                }
+                            </td>
+                            <td class="text-end">
+                                <a class="btn btn-sm btn-light text-warning" asp-action="EkleGuncelle" asp-route-id="@v.Id"><i class="fa-solid fa-pen"></i></a>
+                                <form class="d-inline" asp-action="Sil" asp-route-id="@v.Id" method="post" onsubmit="return confirm('Silinsin mi?');">
+                                    @Html.AntiForgeryToken()
+                                    <button class="btn btn-sm btn-light text-danger"><i class="fa-solid fa-trash"></i></button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+}

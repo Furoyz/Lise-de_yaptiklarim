@@ -1,0 +1,24 @@
+﻿@model MinibusTakip.Models.Schedule
+@{
+    ViewData["Title"] = "Yeni Tarife";
+}
+<h2>@ViewData["Title"]</h2>
+<form asp-action="Ekle" method="post" class="bg-white p-3 rounded shadow-sm">
+    @Html.AntiForgeryToken()
+    <div asp-validation-summary="All" class="text-danger mb-2"></div>
+
+    <div class="mb-3">
+        <label class="form-label">Minibüs</label>
+        <select asp-for="VehicleId" class="form-select" asp-items="ViewBag.VehicleList"></select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Durak</label>
+        <select asp-for="StopId" class="form-select" asp-items="ViewBag.StopList"></select>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Saat" class="form-label">Saat (ss:dd)</label>
+        <input asp-for="Saat" type="time" class="form-control" />
+    </div>
+    <button class="btn btn-primary">Kaydet</button>
+    <a asp-action="Index" class="btn btn-secondary">İptal</a>
+</form>

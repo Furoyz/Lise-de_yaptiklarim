@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>@ViewData["Title"] - Admin Paneli</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <style>
+        /* Admin'e Özel Mobil Arayüz Stilleri */
+        body {
+            background-color: #f2f5f8 !important;
+            font-family: 'Inter', sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* Üst Bar */
+        .admin-header {
+            background: #0f172a !important; /* Çok koyu lacivert */
+            color: white !important;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 16px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1050;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+
+            .admin-header button, .admin-header a {
+                color: white !important;
+                text-decoration: none;
+            }
+
+        .admin-main {
+            margin-top: 60px;
+            padding: 16px;
+            padding-bottom: 30px;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        @@keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(5px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Yan Menü (Offcanvas) - KESİN RENKLER */
+        .offcanvas {
+            background-color: #1e293b !important; /* Koyu gri/lacivert arka plan */
+            color: #ffffff !important;
+        }
+
+        .offcanvas-header {
+            border-bottom: 1px solid #334155 !important;
+            padding: 1.5rem 1rem;
+        }
+
+        .offcanvas-title {
+            color: #ffffff !important;
+            font-weight: 700;
+        }
+
+        /* Menü Linkleri */
+        .offcanvas .nav-link {
+            color: #cbd5e1 !important; /* Açık gri yazı */
+            padding: 14px 20px !important;
+            border-radius: 12px;
+            margin: 4px 12px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            transition: all 0.2s;
+        }
+
+            .offcanvas .nav-link i {
+                width: 24px;
+                text-align: center;
+                font-size: 1.1rem;
+                color: #94a3b8 !important;
+            }
+
+            /* Üzerine gelince veya aktif olunca */
+            .offcanvas .nav-link:hover, .offcanvas .nav-link.active {
+                background-color: #334155 !important;
+                color: #ffffff !important;
+            }
+
+                .offcanvas .nav-link:hover i, .offcanvas .nav-link.active i {
+                    color: #3b82f6 !important; /* Mavi ikon */
+                }
+
+        /* İçerik Kartları */
+        .admin-card {
+            background: white !important;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+            margin-bottom: 20px;
+            border: 1px solid rgba(0,0,0,0.02);
+        }
+
+        /* Tablolar */
+        .table-responsive {
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            background: white;
+        }
+
+        .table {
+            margin-bottom: 0;
+        }
+
+            .table th {
+                background: #f8fafc;
+                font-weight: 600;
+                color: #475569;
+                border-bottom: 2px solid #e2e8f0;
+            }
+
+            .table td {
+                vertical-align: middle;
+            }
+
+        /* Butonları daha şık yapalım */
+        .btn-primary {
+            background-color: #3b82f6 !important;
+            border-color: #3b82f6 !important;
+            border-radius: 12px;
+        }
+
+        .btn-light {
+            background-color: #f1f5f9 !important;
+            border-color: #f1f5f9 !important;
+            color: #334155 !important;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ÜST BAR -->
+    <header class="admin-header">
+        <!-- Hamburger Menü -->
+        <button class="btn btn-link p-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#adminMenu">
+            <i class="fa-solid fa-bars fs-4"></i>
+        </button>
+
+        <!-- Başlık -->
+        <span class="fw-bold fs-5">Admin Paneli</span>
+
+        <!-- Çıkış -->
+        <form asp-area="" asp-controller="Account" asp-action="Logout" method="post" class="m-0">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-link p-0 shadow-none">
+                <i class="fa-solid fa-arrow-right-from-bracket fs-5"></i>
+            </button>
+        </form>
+    </header>
+
+    <!-- SOL MENÜ (OFFCANVAS) -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="adminMenu" style="width: 280px;">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title">🚐 Yönetim Menüsü</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body p-0">
+            <ul class="nav flex-column mt-2">
+                <li><a class="nav-link" asp-area="Admin" asp-controller="Dashboard" asp-action="Index"><i class="fa-solid fa-chart-pie"></i> Dashboard</a></li>
+                <li><a class="nav-link" asp-area="Admin" asp-controller="Vehicle" asp-action="Index"><i class="fa-solid fa-bus"></i> Minibüsler</a></li>
+                <li><a class="nav-link" asp-area="Admin" asp-controller="Stop" asp-action="Index"><i class="fa-solid fa-location-dot"></i> Duraklar</a></li>
+                <li><a class="nav-link" asp-area="Admin" asp-controller="Schedule" asp-action="Index"><i class="fa-solid fa-clock"></i> Tarifeler</a></li>
+                <li><a class="nav-link" asp-area="Admin" asp-controller="Kullanici" asp-action="Index"><i class="fa-solid fa-users"></i> Kullanıcılar</a></li>
+                <li><hr class="border-secondary mx-3 my-2"></li>
+                <li><a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i> Siteye Dön</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- İÇERİK -->
+    <main class="admin-main">
+        @if (TempData["basari"] != null)
+        {
+            <div class="alert alert-success shadow-sm border-0" style="border-radius:12px;">@TempData["basari"]</div>
+        }
+        @if (TempData["hata"] != null)
+        {
+            <div class="alert alert-danger shadow-sm border-0" style="border-radius:12px;">@TempData["hata"]</div>
+        }
+
+        @RenderBody()
+    </main>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

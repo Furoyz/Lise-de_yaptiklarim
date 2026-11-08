@@ -1,0 +1,49 @@
+﻿@model MinibusTakip.ViewModels.YolcuPanelViewModel
+@{
+    ViewData["Title"] = "Durağım";
+}
+
+@if (Model.SeciliStopId == null)
+{
+    <div class="premium-card text-center py-5 mt-4">
+        <i class="fa-solid fa-location-dot fs-1 text-muted mb-3"></i>
+        <h5 class="fw-bold">Durak Seçilmedi</h5>
+        <p class="text-muted small mb-4">Minibüsleri görebilmek için lütfen bir durak seçin.</p>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary w-100">Durak Seç</a>
+    </div>
+}
+else
+{
+    <input type="hidden" id="seciliStopId" value="@Model.SeciliStopId" />
+
+    <div class="position-relative mb-4 rounded-4 overflow-hidden border">
+        @if (!string.IsNullOrEmpty(Model.SeciliStop?.ResimUrl))
+        {
+            <img src="@Model.SeciliStop.ResimUrl" class="w-100" style="height: 160px; object-fit: cover;" alt="@Model.SeciliStopAd" />
+            <div class="position-absolute top-0 start-0 w-100 h-100" style="background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);"></div>
+        }
+        else
+        {
+            <div class="w-100 bg-secondary d-flex justify-content-center align-items-center" style="height: 160px;">
+                <i class="fa-solid fa-location-dot text-white fs-1"></i>
+            </div>
+        }
+
+        <div class="position-absolute bottom-0 start-0 p-3 w-100 d-flex justify-content-between align-items-end">
+            <div>
+                <h4 class="fw-bold mb-0 text-white">@Model.SeciliStopAd</h4>
+                <small class="text-white opacity-75"><i class="fa-solid fa-satellite-dish me-1"></i> Canlı Takip</small>
+            </div>
+            <a asp-controller="Home" asp-action="Index" class="btn btn-light btn-sm rounded-pill fw-bold px-3">Değiştir</a>
+        </div>
+    </div>
+
+    <div id="harita" class="mb-4"></div>
+
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <span class="fw-bold" style="color: var(--text-main);">Gelen Minibüsler</span>
+        <span id="sonGuncelleme" class="text-muted" style="font-size:0.75rem;">-</span>
+    </div>
+
+    <div id="minibusListesi"></div>
+}

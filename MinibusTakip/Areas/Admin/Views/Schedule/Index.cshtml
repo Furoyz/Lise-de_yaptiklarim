@@ -1,0 +1,40 @@
+﻿@model List<MinibusTakip.Models.Schedule>
+@{
+    ViewData["Title"] = "Tarifeler";
+    var vehicles = ViewBag.Vehicles as List<MinibusTakip.Models.Vehicle> ?? new();
+    var seciliVehicle = ViewBag.SeciliVehicle as int?;
+}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>Tarifeler</h2>
+    <form method="get" class="d-flex gap-2">
+        <select name="vehicleId" class="form-select">
+            <option value="">Tüm minibüsler</option>
+            @foreach (var v in vehicles)
+            {
+                <option value="@v.Id" selected="@(seciliVehicle == v.Id)">@v.Plaka</option>
+            }
+        </select>
+        <button class="btn btn-secondary">Filtrele</button>
+    </form>
+    <a class="btn btn-primary" asp-action="Ekle" asp-route-vehicleId="@seciliVehicle">+ Yeni Tarife</a>
+</div>
+
+<table class="table table-striped bg-white">
+    <thead><tr><th>Minibüs</th><th>Durak</th><th>Saat</th><th style="width:100px"></th></tr></thead>
+    <tbody>
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.Vehicle?.Plaka</td>
+            <td>@s.Stop?.Sira. @s.Stop?.Ad</td>
+            <td>@s.Saat.ToString(@"hh\:mm")</td>
+            <td>
+                <form asp-action="Sil" asp-route-id="@s.Id" method="post" onsubmit="return confirm('Silinsin mi?');">
+                    @Html.AntiForgeryToken()
+                    <button class="btn btn-sm btn-danger">Sil</button>
+                </form>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

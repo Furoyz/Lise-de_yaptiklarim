@@ -1,0 +1,966 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\views\\sofor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\views\\sofor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\views\\yolcu\\panelim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\views\\yolcu\\panelim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\viewmodels\\yolcupanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\viewmodels\\yolcupanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\controllers\\yolcucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\controllers\\yolcucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\controllers\\soforcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\controllers\\soforcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\views\\stop\\ekleguncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\views\\stop\\ekleguncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\controllers\\stopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\controllers\\stopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\models\\stop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\models\\stop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\views\\profil\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\views\\profil\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\controllers\\profilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\controllers\\profilcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\views\\vehicle\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\views\\vehicle\\ekleguncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\views\\vehicle\\ekleguncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\wwwroot\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\wwwroot\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\wwwroot\\service-worker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\wwwroot\\service-worker.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\views\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\viewmodels\\resetpasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\wwwroot\\js\\push.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\wwwroot\\js\\push.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\services\\pushnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\services\\pushnotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\viewmodels\\soforpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\viewmodels\\soforpanelviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\views\\kullanici\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\views\\kullanici\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\views\\stop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\views\\stop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\views\\schedule\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\views\\schedule\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\views\\schedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\views\\schedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\models\\stopsubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\models\\stopsubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\models\\drivermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\models\\drivermessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\models\\delayupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\models\\delayupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\models\\vehiclelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\models\\vehiclelocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\models\\vehiclestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\models\\vehiclestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\models\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\models\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\models\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\migrations\\20261031193110_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\migrations\\20261031193110_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|c:\\users\\tf\\desktop\\projeler\\minibustakip\\minibustakip\\migrations\\20261106220029_addstopimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9955E40-595A-43E8-9144-D8F56D33064E}|MinibusTakip\\MinibusTakip.csproj|solutionrelative:minibustakip\\migrations\\20261106220029_addstopimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Sofor\\Index.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Views\\Sofor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Sofor\\Index.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Views\\Sofor\\Index.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAqwD4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-01T11:37:27.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "YolcuPanelViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\ViewModels\\YolcuPanelViewModel.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\ViewModels\\YolcuPanelViewModel.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\ViewModels\\YolcuPanelViewModel.cs",
+              "RelativeToolTip": "MinibusTakip\\ViewModels\\YolcuPanelViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:59:54.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "YolcuController.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Controllers\\YolcuController.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Controllers\\YolcuController.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Controllers\\YolcuController.cs",
+              "RelativeToolTip": "MinibusTakip\\Controllers\\YolcuController.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAwwJ4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T20:00:17.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Program.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Program.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Program.cs",
+              "RelativeToolTip": "MinibusTakip\\Program.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAADwv5EAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:24:57.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MinibusTakip\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwFQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T21:57:14.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\appsettings.json",
+              "RelativeDocumentMoniker": "MinibusTakip\\appsettings.json",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\appsettings.json",
+              "RelativeToolTip": "MinibusTakip\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-31T19:25:21.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SoforController.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Controllers\\SoforController.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Controllers\\SoforController.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Controllers\\SoforController.cs",
+              "RelativeToolTip": "MinibusTakip\\Controllers\\SoforController.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAowNwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T11:31:16.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAewDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:20:24.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "MinibusTakip\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "MinibusTakip\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAEwBAAAAAAAAAAAgwHIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-11-06T21:16:41.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:18:43.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:18:19.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T21:17:11.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Panelim.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Yolcu\\Panelim.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Views\\Yolcu\\Panelim.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Yolcu\\Panelim.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Views\\Yolcu\\Panelim.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-08T15:51:32.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "MinibusTakip\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "MinibusTakip\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAqwIgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-08T16:01:29.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EkleGuncelle.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Stop\\EkleGuncelle.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Views\\Stop\\EkleGuncelle.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Stop\\EkleGuncelle.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Views\\Stop\\EkleGuncelle.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowCYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:44:37.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StopController.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Controllers\\StopController.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Controllers\\StopController.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Controllers\\StopController.cs",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Controllers\\StopController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAA7wEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:43:29.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MinibusTakip\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAEwHQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:13:59.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "20261106220029_AddStopImages.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Migrations\\20261106220029_AddStopImages.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Migrations\\20261106220029_AddStopImages.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Migrations\\20261106220029_AddStopImages.cs",
+              "RelativeToolTip": "MinibusTakip\\Migrations\\20261106220029_AddStopImages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T22:00:29.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Views\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Views\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T19:57:02.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProfilController.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Controllers\\ProfilController.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Controllers\\ProfilController.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Controllers\\ProfilController.cs",
+              "RelativeToolTip": "MinibusTakip\\Controllers\\ProfilController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T21:44:48.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAALIAAAAAAAAAAAAswNUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:40:07.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Stop.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\Stop.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Models\\Stop.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\Stop.cs",
+              "RelativeToolTip": "MinibusTakip\\Models\\Stop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:35:05.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EkleGuncelle.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Vehicle\\EkleGuncelle.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Views\\Vehicle\\EkleGuncelle.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Vehicle\\EkleGuncelle.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Views\\Vehicle\\EkleGuncelle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowCMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:42:56.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Profil\\Index.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Views\\Profil\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Profil\\Index.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Views\\Profil\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAowCcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T21:45:27.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Views\\Vehicle\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:42:23.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "MinibusTakip\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:12:44.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "service-worker.js",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\wwwroot\\service-worker.js",
+              "RelativeDocumentMoniker": "MinibusTakip\\wwwroot\\service-worker.js",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\wwwroot\\service-worker.js",
+              "RelativeToolTip": "MinibusTakip\\wwwroot\\service-worker.js",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowEcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-01T11:54:34.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "manifest.json",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\wwwroot\\manifest.json",
+              "RelativeDocumentMoniker": "MinibusTakip\\wwwroot\\manifest.json",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\wwwroot\\manifest.json",
+              "RelativeToolTip": "MinibusTakip\\wwwroot\\manifest.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-06T20:46:58.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:20:06.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-06T19:56:43.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Services\\EmailSender.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Services\\EmailSender.cs",
+              "RelativeToolTip": "MinibusTakip\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T19:46:49.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ResetPasswordViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\ViewModels\\ResetPasswordViewModel.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\ViewModels\\ResetPasswordViewModel.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\ViewModels\\ResetPasswordViewModel.cs",
+              "RelativeToolTip": "MinibusTakip\\ViewModels\\ResetPasswordViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T19:55:34.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PushNotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Services\\PushNotificationService.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Services\\PushNotificationService.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Services\\PushNotificationService.cs",
+              "RelativeToolTip": "MinibusTakip\\Services\\PushNotificationService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T11:53:02.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Controllers\\ScheduleController.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:46:19.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "push.js",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\wwwroot\\js\\push.js",
+              "RelativeDocumentMoniker": "MinibusTakip\\wwwroot\\js\\push.js",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\wwwroot\\js\\push.js",
+              "RelativeToolTip": "MinibusTakip\\wwwroot\\js\\push.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-11-01T11:53:58.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Schedule\\Index.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Views\\Schedule\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Schedule\\Index.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Views\\Schedule\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwCcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:46:59.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Schedule\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Views\\Schedule\\Ekle.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Schedule\\Ekle.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Views\\Schedule\\Ekle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:47:40.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MinibusTakip\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:11:38.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SoforPanelViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\ViewModels\\SoforPanelViewModel.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\ViewModels\\SoforPanelViewModel.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\ViewModels\\SoforPanelViewModel.cs",
+              "RelativeToolTip": "MinibusTakip\\ViewModels\\SoforPanelViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-01T11:30:51.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Stop\\Index.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Views\\Stop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Stop\\Index.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Views\\Stop\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:44:11.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "KullaniciController.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Controllers\\KullaniciController.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Controllers\\KullaniciController.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Controllers\\KullaniciController.cs",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Controllers\\KullaniciController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:48:38.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Kullanici\\Index.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Views\\Kullanici\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Kullanici\\Index.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Views\\Kullanici\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwCAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:49:22.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Controllers\\VehicleController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAswE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:41:43.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:41:21.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:40:51.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:39:27.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:39:11.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "StopSubscription.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\StopSubscription.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Models\\StopSubscription.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\StopSubscription.cs",
+              "RelativeToolTip": "MinibusTakip\\Models\\StopSubscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:37:11.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "DriverMessage.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\DriverMessage.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Models\\DriverMessage.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\DriverMessage.cs",
+              "RelativeToolTip": "MinibusTakip\\Models\\DriverMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:36:53.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DelayUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\DelayUpdate.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Models\\DelayUpdate.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\DelayUpdate.cs",
+              "RelativeToolTip": "MinibusTakip\\Models\\DelayUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:36:34.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "VehicleLocation.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\VehicleLocation.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Models\\VehicleLocation.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\VehicleLocation.cs",
+              "RelativeToolTip": "MinibusTakip\\Models\\VehicleLocation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:36:16.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "VehicleStatus.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\VehicleStatus.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Models\\VehicleStatus.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\VehicleStatus.cs",
+              "RelativeToolTip": "MinibusTakip\\Models\\VehicleStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:35:43.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\Schedule.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Models\\Schedule.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\Schedule.cs",
+              "RelativeToolTip": "MinibusTakip\\Models\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:35:19.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\Vehicle.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Models\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\Vehicle.cs",
+              "RelativeToolTip": "MinibusTakip\\Models\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:34:50.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20261031193110_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Migrations\\20261031193110_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Migrations\\20261031193110_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Migrations\\20261031193110_InitialCreate.cs",
+              "RelativeToolTip": "MinibusTakip\\Migrations\\20261031193110_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:31:10.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "MinibusTakip\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "MinibusTakip\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-31T19:19:14.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "MinibusTakip\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:13:09.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UserRoles.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\UserRoles.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Models\\UserRoles.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\UserRoles.cs",
+              "RelativeToolTip": "MinibusTakip\\Models\\UserRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:10:00.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "MinibusTakip\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\TF\\Desktop\\Projeler\\MinibusTakip\\MinibusTakip\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "MinibusTakip\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-31T19:09:25.504Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
